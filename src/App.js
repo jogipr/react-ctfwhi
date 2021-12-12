@@ -3,6 +3,10 @@ import { FriendStatus, FriendList } from './hooks-pattern';
 import { HFriendStatus, HFriendList } from './hoc-pattern';
 import './style.css';
 
+const Rotate = () => {
+  return <div className="rotate-me"> 💅🏾 </div>;
+};
+
 export default function App() {
   return (
     <div>
@@ -15,6 +19,9 @@ export default function App() {
       <HFriendStatus />
       <br />
       <HFriendList />
+      <br />
+      <h3>Animation </h3>
+      <Rotate />
     </div>
   );
 }

@@ -1,3 +1,30 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+
+.rotate-me {
+  display: inline-block;
+  animation: rotate 4s linear infinite;
+  padding: 2rem;
+  font-size: 1.2rem;
+  background-color: coral;
+  border-radius: 50%;
+  margin: 10rem;
+  position: absolute;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  to {
+    transform: rotate(360deg);
+    top: 10px;
+  }
 }
