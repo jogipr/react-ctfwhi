@@ -20,8 +20,8 @@ export default function App() {
       <br />
       <HFriendList />
       <br />
-      <h3>Animation </h3>
-      <Rotate />
+      {/* <h3>Animation </h3>
+      <Rotate /> */}
     </div>
   );
 }
