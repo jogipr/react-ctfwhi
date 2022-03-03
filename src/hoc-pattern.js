@@ -17,9 +17,9 @@ export const withFriendStatus = (WrapComponent) => {
       };
     }
     componentDidMount() {
-      setTimeout(() => {
-        this.handleCount(1);
-      }, 5000);
+      // setTimeout(() => {
+      //   this.handleCount(1);
+      // }, 5000);
     }
 
     handleCount = (count) => {

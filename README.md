@@ -1,6 +1,6 @@
 # react-ctfwhi
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ctfwhi)
+[Edit on StackBlitz ⚡️](https://react-ctfwhi-hoc-renderprops.stackblitz.io)
 
 This project is for utilizing stateful logic of react component by other react component
 using three different pattern
